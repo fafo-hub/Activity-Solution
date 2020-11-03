@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Real User's TIME, DATE, TIMEZONES,</h2>
+    <h2> Using Javascript API Endpoints</h2>
+    <div class="container">
+        <h4>Your timezone is : <span class="time-zone"></span></h4><br/>
+       <span>Select your list of timezones: 
+          <select class="continent" name="dropdown" onchange="evolve()" >
+            <option value="Continent" selected>Continent</option>
+            <option value="Africa">Africa</option>
+            <option value="Europe">Europe</option>
+            <option value="America">America</option>
+            <option value="Australia">Australia</option>
+            <option value="Asia">Asia</option>
+            <option value="Atlantic">Atlantic</option>
+            <option value="Indian">Indian</option>
+            <option value="Pacific">Pacific</option>
+          </select>    
+       </span><br/>
+       <p class="display-time-zone"></p><br/>
+       <p><input type="text" id="date-time"></p><br/>
+       <p><input type="text" id="client-api"></p><br/>
+       <p><input type="text" id="t-z"></p><br/>
+    </div>
+</body>
+<script src="script.js" ></script>
+</html>
